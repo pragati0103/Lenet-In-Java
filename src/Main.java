@@ -31,7 +31,7 @@ public class Main {
         float rate = net.test(imagesTest);
         System.out.println("Pre training success rate: " + rate);
 
-        int epochs = 5;
+        int epochs = 10;
 
         for(int i = 0; i < epochs; i++){
             shuffle(imagesTrain);
